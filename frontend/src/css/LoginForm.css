@@ -1,0 +1,95 @@
+
+.mt-4.p-4.border-2.rounded-md.w-80.mx-auto {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db; /* gray-300 */
+  border-radius: 12px;
+  padding: 24px;
+  width: 400px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.font-bold.text-lg.mb-2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+  /* LoginForm container */
+  .loginform-container {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    padding: 24px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Title */
+  .loginform-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #111827;
+  }
+
+  /* Form */
+  .loginform-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Label */
+  .loginform-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1f2937;
+    margin-bottom: 6px;
+  }
+
+  /* Input fields */
+  .loginform-input {
+    border: 1px solid #d1d5db;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .loginform-input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.4);
+    outline: none;
+  }
+
+  /* Button */
+  .loginform-button {
+    background-color: green;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .loginform-button:hover {
+    background-color: green;
+  }
+
+  /* Error message */
+  .loginform-error {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #ef4444;
+  }

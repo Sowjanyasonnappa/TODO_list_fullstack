@@ -1,0 +1,114 @@
+/* Taskmanager.css */
+
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f9fafb, #e0f2fe);
+  margin: 0;
+  padding: 0;
+}
+
+/* Main task manager card */
+.taskmanager-container {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px 40px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.taskmanager-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 25px;
+}
+
+/* Task input section */
+.taskinput-container {
+  margin-bottom: 30px;
+}
+
+/* Task list */
+.taskoutput-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Taskoutput title */
+.taskoutput-title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+/* Empty message */
+.taskoutput-empty {
+  text-align: center;
+  color: #9ca3af;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Task item */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 14px 18px;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 8px;
+}
+.task-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.task-item span {
+  font-size: 1rem;
+  color: #374151;
+}
+.task-item.completed span {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+/* Task buttons */
+.toggle-btn {
+  background: green;
+  color: white;
+  padding: 6px 12px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.toggle-btn:hover {
+  background: #059669;
+}
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  padding: 6px 12px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.delete-btn:hover {
+  background: #dc2626;
+}
