@@ -3,6 +3,7 @@ import { useState } from "react";
 import LoginForm from "./components/LoginForm";
 import RegistrationForm from "./components/RegistrationForm";
 import Taskmanager from "./components/Taskmanager";
+import Test from './Test';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -46,6 +47,8 @@ function App() {
       ) : (
         <Taskmanager />
       )}
+
+     <Test />
     </div>
   );
 }
